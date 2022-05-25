@@ -1,0 +1,118 @@
+body{
+    font-family: 'Gill Sans', 'Merriweather', 'sans-serif';
+    font-size: .75em;
+    background-image: url("./assets/IrvingtonVinyl_Logo2.png");
+    background-size: 300px;
+    margin: 0;
+    height: 100vh;
+    }
+
+header{
+    padding: 1em 0 .5em 0;
+    margin: 0 0 2em;
+    background-image: url(assets/Sylvia-and-Martha.jpg);
+    width: 100%;
+    height: 60px;
+    top: 0;
+    text-align: left;
+    }
+
+    header h1{
+    font-size: 1.5em;
+    margin: .5em 0 .5em 0;
+    padding: 0px;
+    text-transform: uppercase;
+    color: white;
+    }
+   
+    header h2{
+    font-size: 1em;
+    margin: .5em 0 .5em 0;
+    padding: 0px;
+    color: white;
+    }
+
+    .contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 .5em 0 .5em;
+    }
+
+    #main{
+    background-color: aquamarine;
+    position: relative;
+    width: 65%;
+    float: left;        
+    margin: auto;
+    box-shadow: 5px 10px rgb(35, 140, 181);
+    height: auto;
+    padding: 1em .2em 1em;
+    }
+
+    .book {
+        border: transparent 1em;
+        border-radius: 5px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .titles{
+        text-align: center;
+    }
+
+    button {
+        text: 1em darkmagenta;
+        height: 20px;
+        margin: 0;
+    }
+
+    #sidebar
+    {
+        width: 30%;
+        background-color: violet;
+        float: right;
+        display: block;
+        margin: auto;
+        padding: 1em .2em 1em;
+        box-shadow: 5px 10px rgb(151, 35, 205);
+        position: relative;
+    }
+
+    .nav{
+        text-align: center;
+        padding: 2em;
+    }
+    
+    .nav img{
+        max-width: 30px; 
+        max-width: 30px; 
+        border-radius: 2px;
+    }
+    
+    .book img
+    {
+        max-width: 100px;
+        border: 1px solid black;
+    }
+
+
+    footer{
+            width: 100%;
+            height: 100px;
+            z-index: 10;
+            margin-top: 850px;
+            position: relative;
+            text-align: center;
+            overflow: auto;
+            background-color: orangered;
+
+        }
+
+
+.socialIcon{
+    max-width: 20px; 
+    max-width: 20px; 
+    border-radius: 2px;
+}
